@@ -1,24 +1,32 @@
-# Nurdsem Ragesum
+# Nurdsem
 
-**Nurdsem Ragesum** is a NurdRage-themed placeholder text generator that replaces each word in an input file with a cyclic token from a custom placeholder text—while preserving file structure and capitalization. It features:
+**Nurdsem** is a NurdRage-themed placeholder text generator. It replaces each word in an input file with a cyclic token drawn from a custom placeholder text—while preserving the file's structure and capitalization.
 
-- **GUI File Pickers:** Use native dialogs for input and output file selection if not provided on the command line.
-- **Robust Error Handling:** Ensures a smooth user experience even when errors occur.
-- **Dependency Management:** Automatically checks for and (if needed) installs the required `regex` module.
-
-## Files
-
-- **nurdsem_ragesum.py**: The main Python script.
-- **requirements.txt**: Lists external dependencies.
-- **.gitignore**: Specifies files and directories to be ignored by Git.
-- **LICENSE**: The project's license.
-- **README.md**: This file.
+## Features
+- **GUI File Pickers:** Native dialogs for selecting input/output files when options are omitted.
+- **Auto Dependency Helper:** Checks for and prompts installation of required dependencies.
+- **Robust Error Handling:** Extensive error handling throughout the code.
 
 ## Installation
 
-1. **Clone the repository:**
+Clone the repository and install globally:
+\`\`\`bash
+git clone https://github.com/yourusername/nurdsem-ragesum.git nsem
+cd nsem
+pip install -e .
+\`\`\`
 
-   ```bash
-   git clone https://github.com/NurdRage/Nurdsem-Ragesum.git
-   cd nurdsem-ragesum
+This installs the global command \`nurdsem\`.
 
+## Usage
+
+Run from the command line:
+\`\`\`bash
+nurdsem --input path/to/input.txt --output path/to/output.txt
+\`\`\`
+
+If options are omitted, GUI dialogs will appear.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
