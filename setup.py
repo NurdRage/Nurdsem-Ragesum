@@ -4,8 +4,8 @@ setup(
     name="nurdsem",
     version="0.1.0",
     description="A NurdRage-themed placeholder text generator with GUI file pickers and robust error handling.",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="NurdRage",
+    author_email="NurdRageDevelopment@gmail.com",
     packages=find_packages(),
     install_requires=[
         "regex",

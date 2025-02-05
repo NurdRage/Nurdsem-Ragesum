@@ -11,7 +11,7 @@
 
 Clone the repository and install globally:
 \`\`\`bash
-git clone https://github.com/yourusername/nurdsem-ragesum.git nsem
+git clone https://github.com/NurdRage/nurdsem.git nsem
 cd nsem
 pip install -e .
 \`\`\`

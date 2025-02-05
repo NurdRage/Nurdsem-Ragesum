@@ -11,3 +11,6 @@ env/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Exclude this updater script
+update_all.sh
